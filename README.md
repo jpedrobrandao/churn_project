@@ -58,23 +58,24 @@ O dataset utilizado é o [Telco Customer Churn](https://www.kaggle.com/blastchar
 
 1. Clone o repositório:
 
-   ``bash
+```bash
    git clone https://github.com/seu-usuario/churn_project.git
    cd churn_project
    
 Crie e ative um ambiente virtual (opcional, mas recomendado):
 
-``bash
+```bash
 python -m venv churn_env
 source churn_env/bin/activate  # No Windows: churn_env\Scripts\activate
+
 Instale as dependências:
 
-``bash
+```bash
 pip install -r requirements.txt
 
 Execute o dashboard:
 
-``bash
+```bash
 streamlit run app.py
 Acesse o dashboard no navegador:
 
