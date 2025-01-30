@@ -1,5 +1,3 @@
-markdown
-Copy
 # Previsão de Churn em Telecomunicações
 
 Este projeto tem como objetivo prever o churn (cancelamento de serviços) de clientes de uma empresa de telecomunicações utilizando técnicas de ciência de dados e machine learning. O modelo desenvolvido ajuda a identificar clientes com alta probabilidade de churn, permitindo que a empresa tome ações preventivas para retê-los.
@@ -59,24 +57,24 @@ O dataset utilizado é o [Telco Customer Churn](https://www.kaggle.com/blastchar
 ### Passos para Execução
 
 1. Clone o repositório:
-   ```bash
+
+   ``bash
    git clone https://github.com/seu-usuario/churn_project.git
    cd churn_project
+   
 Crie e ative um ambiente virtual (opcional, mas recomendado):
 
-bash
-Copy
+``bash
 python -m venv churn_env
 source churn_env/bin/activate  # No Windows: churn_env\Scripts\activate
 Instale as dependências:
 
-bash
-Copy
+``bash
 pip install -r requirements.txt
+
 Execute o dashboard:
 
-bash
-Copy
+``bash
 streamlit run app.py
 Acesse o dashboard no navegador:
 
